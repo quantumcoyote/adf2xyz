@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c413d43-cc1a-4fa3-9c54-a083b3197fed" name="Default Changelist" comment="" />
+    <list default="true" id="2c413d43-cc1a-4fa3-9c54-a083b3197fed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/adf2xyz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/adf2xyz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +45,57 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-165177212">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="adf" value="1" />
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adf2xyz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="1298">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cleanfreq.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2383">
+              <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -73,12 +116,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/adf2xyz.py" />
+        <option value="$PROJECT_DIR$/cleanfreq.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="539" />
-    <option name="y" value="63" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -90,18 +133,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="adf2xyz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adf2xyz" type="462c0819:PsiDirectoryNode" />
+              <item name="adftools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adftools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,8 +204,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32962668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -187,23 +229,29 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/H2O.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="4354" column="43" selection-start-line="4354" selection-start-column="24" selection-end-line="4354" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/H2O.log" />
+    <entry file="file://$PROJECT_DIR$/output.dat" />
     <entry file="file://$PROJECT_DIR$/adf2xyz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="1298">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example.adf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702861">
+          <caret line="992" selection-start-line="992" selection-end-line="992" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanfreq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2383">
+          <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
         </state>
       </provider>
     </entry>
