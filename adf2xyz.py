@@ -70,6 +70,3 @@ output.write("Energy= %10.3f kcal/mol \n" % energy)
 
 for i in range(0, len(x)):
         output.write("%s %10.6f %10.6f %10.6f \n" % (name[i], float(x[i]), float(y[i]), float(z[i])))
-
-output.write(' \n')
-output.write(' \n')

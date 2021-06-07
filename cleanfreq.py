@@ -112,7 +112,7 @@ def ADF():
                      dz.append(tmp[9])
 
           nline = nline + 1
-    print(dx)
+
     nline=0
     with open(sys.argv[1], 'r') as searchfile:
         for line in searchfile:
