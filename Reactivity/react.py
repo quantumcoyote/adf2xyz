@@ -2,7 +2,7 @@ import subprocess
 import sys
 
 #
-# python3.6 react.py T(K) P(atom) ph(unitless)
+# python3.6 react.py T(K) P(atm) pH(unitless)
 #
 
 #

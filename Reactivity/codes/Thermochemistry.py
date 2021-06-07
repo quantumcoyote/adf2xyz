@@ -332,48 +332,6 @@ def Thermochemistry(T,P):
         # Calculation of the rotational contribution to the internal energy
         Urot = 0.00
 
-    #
-    # Pressure corrections into the translational partition function
-    #
-
-    if species == 'OOH':
-        P = 1.0 * T * 0.082057338
-
-    if species == 'H2O2':
-        P = 1.0 * T * 0.082057338
-
-    if species == 'H2O':
-        P=1360.27598
-
-    if species == 'H3O':
-        P=(10**(-1.0*(float(sys.argv[3]))))*T*0.082057338
-
-    if species == 'OH':
-        P=(10**(-1.0*(14.0-float(sys.argv[3]))))*T*0.082057338
-
-    if species == 'Li':
-        P=(10**(-1.0*(14.0-float(sys.argv[3]))))*T*0.082057338
-
-    if species == 'Na':
-        P=(10**(-1.0*(14.0-float(sys.argv[3]))))*T*0.082057338
-
-    if species == 'K':
-        P=(10**(-1.0*(14.0-float(sys.argv[3]))))*T*0.082057338
-
-    if species == 'Rb':
-        P=(10**(-1.0*(14.0-float(sys.argv[3]))))*T*0.082057338
-
-    if species == 'Cs':
-        P=(10**(-1.0*(14.0-float(sys.argv[3]))))*T*0.082057338
-
-    if species != 'H2O2' and species != 'OOH' and species != 'H3O' and species != 'OH' and species != 'H2O' and species != 'Li' and species != 'Na' and species != 'K' and species != 'Rb' and species != 'Cs':
-        P=24.46539532
-
-    #
-    # This deactivate the above corrections
-    #
-    P=1.0
-
     # Calculation of the translational partition function and the translational contribution to the entropy
     qt = (((2 * pi * mass_kg * boltzman * T) / (planck * planck)) ** (1.5)) * ((boltzman * T) / (P*101325))
     Strans = 0.008314462175 * ((math.log(qt)) + 1 + 1.5)

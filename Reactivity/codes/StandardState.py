@@ -22,7 +22,6 @@ for filename in sorted(os.listdir(output_path)):
         for line in file:
             tmp=line.split()
             concentrations.append(tmp[1])
-print(concentrations)
 #
 # Obtain the Enthalpy and Gibbs Free Energy
 #
@@ -50,6 +49,7 @@ print('Temperature = %5.2f K' %(T))
 print('pH = %5.2f' %(pH))
 print('')
 print('######### REACTIONS #########')
+print('All energies in kcal/mol')
 print('')
 
 reaction_number=1
@@ -81,9 +81,11 @@ for filename in sorted(os.listdir(output_path)):
             #
             # Apply standard state and unit conversion from kJ/mol to kcal/mol
             #
-            stdstate=0.0
+
             Tot_H_std=(Tot_H+stdstate)/4.184
             Tot_G_std=(Tot_G+stdstate)/4.184
+            Tot_H=(Tot_H)/4.184
+            Tot_G=(Tot_G)/4.184
             reac=str(file_labels.readline().strip('\n'))
 
             #
